@@ -1,10 +1,13 @@
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('./home/container/container-text.css');
-@import url('./home/container/container.css');
+@import url('./home/container/main.css');
 @import url('./home/container/icons.css');
 @import url('./home/container/about.css');
-@import url('./home/about/aboutMe.css');
+@import url('./home/about/main.css');
+@import url('./home/skills/main.css');
 
 html {
     scroll-behavior: smooth;
