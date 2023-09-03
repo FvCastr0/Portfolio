@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Home</title>
     <link rel="stylesheet" href="./assets/css/main.css">
 
@@ -45,12 +46,28 @@
                 <h2 class="subtitle">developer</h2>
             </div>
             <div class="btnAbout">
-                <button onclick="(alert('Site em desenvolvimento!'))">Sobre mim</button>
+                <a href="#aboutMe" id="btn">Sobre Mim</a>
             </div>
         </main>
+
     </div>
 
+    <section id="aboutMe" data-aos="fade-down">
+        <p>Quem sou eu?</p>
+        <h1>Fernando Castro</h1>
+        <h2>Fullstack developer</h2>
+        <legend>
+            Meu nome é Fernando Vaz de Castro. Tenho 15 anos e comecei a estudar programação aos 12 anos.
+            Inicialmente, dediquei-me à linguagem LUA, porém, não despertou muito meu interesse. Desde então,
+            comecei a estudar Javascript, tanto para desenvolvimento frontend quanto backend, e venho me
+            aprofundando cada vez mais nessa área.</legend>
+    </section>
+
     <script src="./assets/js/app.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

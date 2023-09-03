@@ -7,7 +7,11 @@
     transform: translate(-50%, -50%);
 }
 
-.container button {
+.container .btnAbout {
+    margin-top: 1.3rem;
+}
+
+.container #btn {
     color: #FFF;
     position: relative;
     padding: 0.5rem;
@@ -16,11 +20,11 @@
     cursor: pointer;
     border-radius: 10rem;
     font-size: 1.2rem;
-    margin-top: 0.5rem;
     transition: all .5s ease;
+    text-decoration: none;
 }
 
-.container button:hover {
+.container #btn:hover {
     color: #151515;
     background-color: #FFF;
     border: 1px solid #FFF;

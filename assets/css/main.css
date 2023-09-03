@@ -6,8 +6,18 @@
 @import url('./home/container/about.css');
 @import url('./home/about/aboutMe.css');
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background: #111111;
+}
+
+*::selection {
+    background-color: #64198f;
+    color: white;
 }
 
 .bg {
@@ -20,10 +30,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #151515;/
+    background: #151515;
 }
 
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    border: 3px solid #986DFF;
+    border: 3px solid #64198f;
 }

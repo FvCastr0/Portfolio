@@ -1,3 +1,36 @@
-.about-me {
+#aboutMe {
     color: #FAFAFA;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 1px solid #1F1F1F;
+    background-color: #151515;
+}
+
+#aboutMe p {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #9030c7;
+}
+
+#aboutMe h1 {
+    font-size: 2.3rem;
+    margin-bottom: .3rem;
+}
+
+#aboutMe h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #ccccccd7;
+}
+
+#aboutMe legend {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
