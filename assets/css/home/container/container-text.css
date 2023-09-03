@@ -1,0 +1,26 @@
+.container .container-text {
+    line-height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #FEFEFE;
+}
+
+.container p {
+    color: #ccccccd7;
+    font-size: 1.5rem;
+}
+
+.container .container-text h1 {
+    font-size: 5.5rem;
+}
+
+.container .container-text h2 {
+    font-size: 7.5rem;
+}
+
+.container legend {
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20rem;
+}

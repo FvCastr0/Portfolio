@@ -1,0 +1,29 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+@import url('./home/container/container-text.css');
+@import url('./home/container/container.css');
+@import url('./home/container/icons.css');
+@import url('./home/container/about.css');
+@import url('./home/about/aboutMe.css');
+
+body {
+    background: #111111;
+}
+
+.bg {
+    background: radial-gradient(ellipse at center, #400d70e0 0%, #0000009d 100%);
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #151515;/
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 3px solid #986DFF;
+}

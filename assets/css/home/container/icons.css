@@ -1,0 +1,20 @@
+.container .icons .svgIcon {
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+    background-color: #151515;
+    border-radius: 20%;
+    cursor: pointer;
+    padding: .2rem;
+    transition: all .3s ease-in-out;
+}
+
+.container .icons .svgIcon:hover {
+    background: #64198f;
+    border-radius: 60%;
+    transform: translate(0, -20%);
+}
+
+.container .icons .svgIcon:hover path {
+    fill: #000000;
+}
