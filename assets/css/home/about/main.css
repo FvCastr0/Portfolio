@@ -5,12 +5,32 @@
     margin-left: auto;
     margin-right: auto;
     width: 40rem;
-    margin-top: 7rem;
-    margin-bottom: 9.5rem;
+    margin-top: 3rem;
+    margin-bottom: 16rem;
     padding: 3rem;
     border-radius: 1rem;
     border: 1px solid #1F1F1F;
     background-color: #151515;
+}
+
+#aboutMe .contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutMe .contact img {
+    background: #630d94;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #111;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin: 0 .3rem;
+    transition: all .5s ease-out;
+}
+
+#aboutMe .contact img:hover {
+    transform: translateY(-10px);
 }
 
 #aboutMe p {

@@ -1,8 +1,7 @@
 #skills {
     background-color: #151515;
     margin-top: 13rem;
-    padding-bottom: 2rem;
-
+    padding-bottom: 10rem;
 }
 
 #skills h1 {
@@ -16,7 +15,7 @@
 
 #skills .cards {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: row;
     gap: 10px;
     margin-right: 20%;
@@ -58,6 +57,7 @@
     background: linear-gradient(30deg, #64198f, #1F1F1F 80%);
     transform: translateY(-1rem);
 }
+
 
 #skills .cards .card #styled {
     font-size: .72rem;

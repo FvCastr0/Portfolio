@@ -1,0 +1,32 @@
+#projects .project_cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 12rem;
+}
+
+#projects h1 {
+    color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#projects .project_cards .project_card div {
+    display: flex;
+    font-family: 'Roboto';
+    color: #FAFAFA;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1F1F;
+    width: 450px;
+    height: 250px;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
