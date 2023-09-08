@@ -62,42 +62,8 @@
     }
 }
 
-@media (max-width: 400px) {
-    #aboutMe {
-        width: 15rem;
-    }
 
-    #aboutMe .contact img {
-        width: 30px;
-        height: 30px;
-        margin: 0;
-    }
-
-    #aboutMe p {
-        font-size: 1.5rem;
-    }
-
-    #aboutMe h1 {
-        font-size: 1.8rem;
-    }
-
-    #aboutMe h2 {
-        font-size: 1rem;
-    }
-
-    #aboutMe legend {
-        font-size: 1rem;
-    }
-
-}
-
-@media (max-width: 768px) {
-    #aboutMe {
-        width: 24rem;
-    }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     #aboutMe {
         width: 11.8rem;
     }
