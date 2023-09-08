@@ -31,3 +31,60 @@
 .container p {
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    .container .container-text {
+        line-height: 4rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    .container .container-text h1 {
+        font-size: 3.5rem;
+
+    }
+
+    .container .container-text h2 {
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container .container-text {
+        line-height: 4rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    .container .container-text h1 {
+        font-size: 3rem;
+
+    }
+
+    .container .container-text h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .container .container-text {
+        line-height: 4rem;
+    }
+
+    .container p {
+        font-size: .8rem;
+    }
+
+    .container .container-text h1 {
+        font-size: 2.7rem;
+
+    }
+
+    .container .container-text h2 {
+        font-size: 3.1rem;
+    }
+}

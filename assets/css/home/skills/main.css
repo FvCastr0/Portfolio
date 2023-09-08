@@ -62,3 +62,11 @@
 #skills .cards .card #styled {
     font-size: .72rem;
 }
+
+@media (max-width: 685px) {
+    #skills .cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

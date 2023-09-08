@@ -18,3 +18,11 @@
 .container .icons .svgIcon:hover path {
     fill: #000000;
 }
+
+
+@media (max-width: 425px) {
+    .container .icons .svgIcon {
+        width: 40px;
+        height: 40px;
+    }
+}
