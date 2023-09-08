@@ -65,13 +65,13 @@
 
 @media (max-width: 450px) {
     #aboutMe {
-        width: 11.8rem;
+        width: 13rem;
     }
 
     #aboutMe .contact img {
         width: 30px;
         height: 30px;
-        margin: 0;
+        margin: 0 .1rem;
     }
 
     #aboutMe p {
@@ -84,6 +84,10 @@
 
     #aboutMe h2 {
         font-size: 1rem;
+    }
+
+    #aboutMe legend {
+        font-size: .9rem;
     }
 
 }
